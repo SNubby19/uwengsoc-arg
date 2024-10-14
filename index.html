@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Unusual Afternoon - News</title>
+    <style>
+        /* General body style */
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Header styling with darker background and logo positioning */
+        header {
+            background-color: #333;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ddd;
+            position: relative;
+            /* Allows positioning of logo */
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: normal;
+            text-align: left;
+            margin: 0;
+            font-family: 'Times New Roman', Times, serif;
+            color: #fff;
+        }
+
+        /* Positioning the logo in the top right */
+        .logo {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            height: 60px;
+            /* Adjust the height as needed */
+        }
+
+        /* Main content area */
+        main {
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        main h2 {
+            font-size: 1.75rem;
+            margin-bottom: 20px;
+            font-weight: normal;
+            color: #111;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 1.2em;
+        }
+
+        /* Add a gray line between article and comment section */
+        .divider {
+            margin: 40px 0;
+            border-top: 1px solid #ddd;
+        }
+
+        /* Comment section styling */
+        .comments-section {
+            padding: 20px 0;
+        }
+
+        .comments-section h3 {
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .comment {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .comment h4 {
+            margin: 0 0 5px 0;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+
+        .comment p {
+            margin: 5px 0;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        /* Reaction buttons for like and reply */
+        .comment-buttons {
+            margin-top: 10px;
+        }
+
+        /* Styling for buttons */
+        .comment-buttons button {
+            background: none;
+            border: none;
+            color: gray;
+            font-size: 1.2rem;
+            cursor: pointer;
+            margin-right: 15px;
+        }
+
+        /* Heart icon for like */
+        .comment-buttons .like-button::before {
+            content: '\2661';
+            /* Unicode for heart outline */
+            font-size: 1.4rem;
+            color: gray;
+        }
+
+        /* Reply arrow icon */
+        .comment-buttons .reply-button::before {
+            content: '\21A9';
+            /* Unicode for reply arrow */
+            font-size: 1.4rem;
+            color: gray;
+        }
+
+        /* New comment input area */
+        .new-comment {
+            margin-top: 40px;
+            margin-right: 3%;
+        }
+
+        .new-comment textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            resize: none;
+        }
+
+        .new-comment button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+
+        .new-comment button:hover {
+            background-color: #555;
+        }
+
+        /* Footer at the bottom */
+        footer {
+            background-color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 0.9rem;
+            border-top: 1px solid #ddd;
+        }
+
+        footer p {
+            margin: 0;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1 style="position: relative; left: 38%;">The Daily Times</h1>
+    </header>
+
+    <main>
+        <h2 style="font-weight: bold;">An Unusual Afternoon in RCH 101</h2>
+        <p>It was a regular afternoon in RCH 101. I was sitting near the back, trying to focus on the professor’s
+            explanation of load-bearing structures when I noticed some movement near the front of the room. At first, I
+            thought it was just someone shuffling their papers or adjusting their bag, but then I realized it was
+            something far more unusual.</p>
+
+        <p>Something had somehow made its way into the lecture hall. It was creeping along the floor, sniffing at the
+            students’ bags and the occasional dropped pencil. Everyone was so engrossed in the lecture on shear stresses
+            that no one seemed to notice. It moved quickly, its feet barely making a sound on the carpeted floor.</p>
+
+        <p>Then it spotted something interesting—a wrench, likely left behind by one of the engineering students after
+            working on a project. Without hesitation, it grabbed the wrench in its nimble little feet and started making
+            its way back toward the exit.</p>
+
+        <p>I couldn’t believe my eyes. It was carrying the wrench as if it had done this sort of thing a thousand times
+            before. It darted toward the side door, but just as it reached it, the door swung open as someone else was
+            entering. It paused for a second, seemingly assessing the situation, then bolted out of the lecture hall
+            before anyone could react.</p>
+
+        <p>By the time people started realizing what had happened, it was long gone, wrench and all. It was one of those
+            moments where you had to question if you really saw what you thought you saw, but I’m sure of it—it made off
+            with a wrench right in the middle of a civil engineering lecture! </p>
+
+        <div class="divider"></div>
+
+        <div class="interested">
+            <h3>Interested!!</h3>
+            <p>Check out our sources:</p>
+            <ul>
+
+                <!-- come to the EngSoc office (cph 1327) on Monday October 28th, keep these words in mind: tool, Ceasar-->
+                <li><a href="#">t̷͈͗h̶̰̋e̶̫̐f̷̜̊t̶̛̥s̴̖̀ ̵͚͛á̵̘ċ̸̬͝r̴̠̕ȍ̷̡s̶̠̊s̴̯͊ ̴͕̈́c̴͎̈a̶̦͑m̸͐ͅp̷͙̚u̸͙̓s̶̥͝</a>
+                </li>
+                <li><a href="#">g̷̢͇̀̓̇͜e̵̬̗͒̿̃ẽ̴̫̼̟͗͝ṣ̷͌͜é̷͔̱͛̕ ̶͗͜s̴̨̛͍̦͛̕p̴̣̹͌o̷̼̹͠t̶̤̱̪̾t̶͙̘͐̉̈e̷̯͑d̸̻̟̆ͅ
+                        ̶̯̘̀̂̚ȉ̸̞n̵̙̫̟̈́̀ ̸͍̌̆̒l̷̛͈̬̈͘͜e̵̢̫͖͒̿c̷̞͊ţ̴́ų̷͍̈́r̴̨̙̞͝ē̸̝̤̒̀
+                        ̷̼̭̞̐́h̷̛̪͕̭͘ã̷̙̟̠l̵̛̳̩̆l̶̨̮͂͜s̸̘͗ </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="comments-section">
+            <h3>Comments</h3>
+
+            <div class="comment">
+                <h4>John Doe</h4>
+                <p>Wow, that must have been so strange! I can’t believe no one else noticed it.</p>
+                <div class="comment-buttons">
+                    <button class="like-button"></button>
+                    <button class="reply-button"></button>
+                </div>
+            </div>
+
+            <div class="comment">
+                <h4>Jane Smith</h4>
+                <p>Sounds like something straight out of a movie! What do you think it was?</p>
+                <div class="comment-buttons">
+                    <button class="like-button"></button>
+                    <button class="reply-button"></button>
+                </div>
+            </div>
+
+            <div class="comment">
+                <h4>Michael Thompson</h4>
+                <p>I was in the same class, and I swear I saw it too! But by the time I realized, it was already gone.
+                </p>
+                <div class="comment-buttons">
+                    <button class="like-button"></button>
+                    <button class="reply-button"></button>
+                </div>
+            </div>
+
+            <div class="new-comment">
+                <h3>Leave a Comment</h3>
+                <textarea rows="4" placeholder="Write your comment here..."></textarea>
+                <button>Submit Comment</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 The Daily Times. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
